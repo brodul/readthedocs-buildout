@@ -38,8 +38,13 @@ If you want readthedocs to generate PDF files (be ware, lots of dependencies!):
 ::
    apt-get install texlive texlive-latex-extra
 
+If you want to use solr you need java (this is an easy no-brainer install):
+::
+   apt-get install python-software-properties
+   add-apt-repository ppa:webupd8team/java
+   apt-get update
+   apt-get install oracle-java7-installer
 
-   
 Install
 =======
 Boostrap buildout (using distribute):
