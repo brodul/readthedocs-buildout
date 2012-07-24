@@ -32,7 +32,7 @@ Install python 2.7:
 
 Needed libs:
 ::
-   apt-get install install libxml2-dev libxslt1-dev expat
+   apt-get install libxml2-dev libxslt1-dev expat python-dev libevent-dev python-virtualenv
 
 If you want readthedocs to generate PDF files (be ware, lots of dependencies!):
 ::
@@ -44,6 +44,7 @@ If you want to use solr you need java (this is an easy no-brainer install):
    add-apt-repository ppa:webupd8team/java
    apt-get update
    apt-get install oracle-java7-installer
+
 
 Install
 =======
